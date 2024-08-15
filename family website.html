@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Joseph Tunmise Family</title>
+    <style>
+        /* General Styles */
+        body {
+            background: url('family.jpg') no-repeat center center fixed;
+            background-size: cover;
+            font-family: 'Helvetica Neue', Bernard MT Condensed, sans-serif;
+            line-height: 1.6;
+            margin:0;
+            padding:0;
+            color:grey;
+        }
+        .container {
+            width: 60%;
+            margin: 0 auto;
+            max-width: 1200px;
+        }
+        header {
+            background-color: rgba(0, 0, 0, 0.8);
+            color:purple;
+            padding: 10px 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.7em;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 20px 0;
+            text-align: center;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 1.0s;
+        }
+        nav ul li a:hover {
+            color: black;
+        }
+        .hero-section {
+            text-align: center;
+            padding: 60px 0;
+        }
+        .hero-image {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+        .content-section {
+            padding: 40px 0;
+            background: rgba(255, 255, 255, 0.9);
+            margin: 20px 0;
+            border-radius: 10px;
+        }
+        .gallery {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+        .gallery img {
+            width: 48%;
+            margin-bottom: 10px;
+            border-radius: 5px;
+            transition: transform 0.3s;
+        }
+        .gallery img:hover {
+            transform: scale(1.05);
+        }
+        .social-media {
+            margin-top: 20px;
+        }
+        .social-media a {
+            margin: 0 10px;
+            display: inline-block;
+        }
+        .social-media img {
+            width: 32px;
+            height: 32px;
+            transition: opacity 1s;
+        }
+        .social-media img:hover {
+            opacity: 0.7s;
+        }
+        footer {
+            background-color: rgba(0, 0, 0, 0.8);
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+        footer p {
+            margin:0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Welcome to the Joseph Tunmise Family Website</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#gallery">Family Gallery</a></li>
+                    <li><a href="#events">Family Events</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="home" class="hero-section">
+            <div class="container">
+                <img src="family-photo.jpg" alt="Joseph Family Photo" class="hero-image">
+                <p>Welcome to our family website! We are the Josephs, and this is our little corner of the internet where we share our memories, stories, and events.</p>
+            </div>
+        </section>
+        <section id="gallery" class="content-section">
+			<div class="container">
+			    <h2>Family Gallery</h2>
+                <div class="gallery">
+                    <img src="photo1.jpg" alt="Family Photo 1">
+                </div>
+            </div>
+        </section>
+
+        <section id="events" class="content-section">
+            <div class="container">
+                <h2>Family Events</h2>
+                <ul>
+                    <li>Family Reunion - July 2024</li>
+                    <li>Emma’s Graduation - June 2024</li>
+                    <li>Annual Vacation - December 2024</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="contact" class="content-section">
+            <div class="container">
+                <h2>Contact Us</h2>
+                <p>Feel free to reach out to us at <a href="mailto:josephtunmise983@gmail.com">josephtunmise983@gmail.com</a>.</p>
+                <div class="social-media">
+                    <a href="#"><img src="facebook-icon.png" alt="Facebook"></a>
+                    <a href="#"><img src="twitter-icon.png" alt="Twitter"></a>
+                    <a href="#"><img src="instagram-icon.png" alt="Instagram"></a>
+                </div>
+				<section id="about" class="content-section">
+            <div class="container">
+                <h2>About Us</h2>
+                <p>The Joseph family consists of Tunmise, Eniola, and Joba. We love spending time together, whether it’s traveling, cooking, or just relaxing at home.</p>
+            </div>
+        </section>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 The Joseph Family. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
